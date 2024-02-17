@@ -6,6 +6,14 @@ export default {
 		fontFamily: {
 			'sans': ['inter', 'system-ui'],
 		},
+		colors: {
+			"jg-teal": "#00A19D",
+			"jg-salmon": "#E05D5D",
+			"jg-cream": "#FFF8E5",
+			"jg-charcoal": "#333333",
+			"jg-smoke": "#757575",
+			"white": "#fff"
+		},
 		extend: {},
 	},
 	plugins: [],
