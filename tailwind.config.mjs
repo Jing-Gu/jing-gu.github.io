@@ -12,7 +12,8 @@ export default {
 			"jg-cream": "#FFF8E5",
 			"jg-charcoal": "#333333",
 			"jg-smoke": "#757575",
-			"white": "#fff"
+			"white": "#fff",
+			"transparent": "transparent"
 		},
 		extend: {},
 	},

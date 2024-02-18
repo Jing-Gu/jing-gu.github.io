@@ -29,7 +29,7 @@ const { title = siteData.title, description = siteData.description } = Astro.pro
     <link rel="canonical" href={canonicalURL} />
 
     <!-- Primary Meta Tags -->
-    <title>{title} | JGU</title>
+    <title>JGU | {title}</title>
     <meta name="title" content={title} />
     <meta name="description" content={description} />
     <!-- Open Graph -->
@@ -47,8 +47,8 @@ const { title = siteData.title, description = siteData.description } = Astro.pro
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:alt" content={siteData.image.alt} />
 	</head>
-	<body class="min-h-screen overflow-x-hidden grid grid-rows-[auto_1fr_auto]
-    border-2 border-jg-charcoal max-w-4xl mx-auto pt-16 pb-8 px-4
+	<body class="min-h-screen overflow-x-hidden grid grid-rows-[auto_1fr_auto] gap-16
+      max-w-4xl mx-auto pt-16 pb-8 px-4
     [&_p]:text-jg-charcoal
     [&_h1]:text-jg-charcoal">
 		<Header />
