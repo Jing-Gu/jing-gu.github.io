@@ -1,7 +1,12 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Prose from "../components/Prose.astro";
+import { Content as NowInfo} from "../data/now.md";
 ---
 
 <Layout title="Now">
-  <p>wip</p>
+  <Prose>
+    <NowInfo />
+  </Prose>
+
 </Layout>

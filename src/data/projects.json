@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Badger 2040",
+    "skills": [
+      "MicroPython",
+      "Raspberry Pi Pico"
+    ],
+    "slug": "badger",
+    "image": {
+      "imgSrc": "images/projects/badger/badger1.jpg",
+      "imgAlt": "badger2040"
+    }
+  },
+  {
+    "title": "Pakupack traveler's checklist",
+    "skills": [
+      "Astro",
+      "Tailwind CSS"
+    ],
+    "slug": "pakupack",
+    "image": {
+      "imgSrc": "images/projects/pakupack/pakupack-home.png",
+      "imgAlt": "pakupack"
+    }
+  }
+]

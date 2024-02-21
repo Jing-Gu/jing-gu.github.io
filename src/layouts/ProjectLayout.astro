@@ -1,0 +1,22 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+import Layout from "./Layout.astro";
+
+type Props = CollectionEntry<"projects">["data"];
+
+const { title, imgSrc, tags } = Astro.props;
+---
+
+<Layout title={title}>
+  <div>
+    <div class="">
+      <img src={`../public/${imgSrc}`} alt="">
+      <h1 class="text-3xl mb-8">{title}</h1>
+      {
+        tags.map(tag => <span>{tag}</span>)
+      }
+    </div>
+    <slot />
+  </div>
+</Layout>

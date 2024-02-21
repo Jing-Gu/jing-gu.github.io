@@ -1,6 +1,6 @@
 ---
-title: 'Second post'
-date: '2022-8-22'
+title: Second post
+date: 2022-8-22
 tags: ['loo', 'funk']
 ---
 

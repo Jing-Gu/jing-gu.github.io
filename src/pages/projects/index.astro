@@ -1,0 +1,16 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Card from "../../components/Card.astro";
+import projects from "../../data/projects.json";
+
+const { pathname } = Astro.url;
+---
+
+<Layout title="Projects">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    {
+      projects.map(project =>
+        <Card href={`${pathname}/${project.slug}`} title={project.title} skills={project.skills} image={project.image}/>)
+    }
+  </div>
+</Layout>

@@ -1,0 +1,21 @@
+---
+const { href, image, title, skills } = Astro.props;
+---
+<a {href}={href} class="block">
+  <img
+    alt={image.imgAlt}
+    src={image.imgSrc}
+    class="h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover sm:h-64 lg:h-72"
+  />
+
+  <div class="mt-4">
+    <p class="font-bold text-lg mb-2">{title}</p>
+    <div class="flex flex-wrap gap-4">
+    {
+      skills.map((skill: string) =>
+        <span class="bg-jg-cream text-jg-smoke px-2 py-1 rounded-full text-sm">{skill}</span>)
+    }
+    </div>
+
+  </div>
+</a>
