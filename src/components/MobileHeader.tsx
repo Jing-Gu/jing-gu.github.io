@@ -13,7 +13,7 @@ const MobileHeader = () => {
     <div>
       <div className='fixed top-0 left-0 right-0 bg-white flex justify-between px-6 py-2 md:hidden'>
         <a href="/" className='flex gap-6 items-center'>
-          <img src="../../public/images/jgu_profile.jpeg" alt="jgu" className="rounded-full h-12"></img>
+          <img src="/images/jgu_profile.jpeg" alt="jgu" className="rounded-full h-12"></img>
           <h1 className="text-2xl font-bold">{logo}</h1>
         </a>
 
