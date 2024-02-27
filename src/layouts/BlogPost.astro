@@ -10,17 +10,15 @@ const { title, date, tags } = Astro.props;
 
 <Layout title={title}>
 	<article class="[&_pre]:rounded-xl [&_time]:text-jg-teal [&_p]:leading-8 [&_p]:mb-5
-		[&_blockquote]:pl-6 [&_blockquote]:border-l-4 [&_blockquote]:border-jg-teal">
-
+		[&_blockquote]:pl-6 [&_blockquote]:border-l-4 [&_blockquote]:border-jg-teal
+		[&_h2]:text-xl [&_h2]:lg:text-2xl [&_h2]:font-medium">
 		<FormattedDate date={date} />
 		<div class="mb-10">
-		<h1 class="text-2xl lg:text-4xl font-semibold my-4">{title}</h1>
-		{
-			tags?.map(tag => <span class="bg-jg-cream py-2 px-4 text-sm text-jg-smoke rounded-full">{tag}</span>)
-		}
+			<h1 class="text-2xl lg:text-4xl font-semibold my-4">{title}</h1>
+			{
+				tags?.map(tag => <span class="bg-jg-cream py-2 px-4 text-sm text-jg-smoke rounded-full">{tag}</span>)
+			}
 		</div>
-
-
 		<slot />
 	</article>
 </Layout>
