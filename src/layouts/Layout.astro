@@ -51,12 +51,12 @@ const { title = siteData.title, description = siteData.description } = Astro.pro
     <meta property="og:image:alt" content={siteData.image.alt} />
     <script src="/prism.js" is:inline></script>
 	</head>
-	<body class="min-h-screen overflow-x-hidden flex flex-col gap-16
+	<body class="min-h-screen overflow-x-hidden grid grid-rows-[auto_1fr_auto]
       max-w-4xl mx-auto pt-16 pb-8 px-4
     [&_p]:text-jg-charcoal
     [&_h1]:text-jg-charcoal">
 		<Header />
-    <div class="flex-1">
+    <div class="my-16">
 		  <slot />
     </div>
     <Footer />
