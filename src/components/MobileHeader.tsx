@@ -44,6 +44,7 @@ const MobileHeader = () => {
       {isMenuOpen ? (
         <nav className="flex flex-col items-center gap-12 fixed left-0 right-0 py-24 bg-white shadow-xl rounded-b-3xl">
           <a href="/">Home</a>
+          <a href="/whoami">Whoami</a>
           <a href="/projects">Projects</a>
           <a href="/blog">Blog</a>
           <a href="/now">Now</a>
