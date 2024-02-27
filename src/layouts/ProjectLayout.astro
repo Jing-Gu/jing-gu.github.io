@@ -3,7 +3,7 @@ import type { CollectionEntry } from "astro:content";
 
 import Layout from "./Layout.astro";
 
-type Props = CollectionEntry<"projects">["data"];
+type Props = CollectionEntry<"project">["data"];
 
 const { title, imgSrc, tags } = Astro.props;
 ---
@@ -14,7 +14,7 @@ const { title, imgSrc, tags } = Astro.props;
       <img src={`../public/${imgSrc}`} alt="">
       <h1 class="text-3xl mb-8">{title}</h1>
       {
-        tags.map(tag => <span>{tag}</span>)
+        tags?.map(tag => <span>{tag}</span>)
       }
     </div>
     <slot />
