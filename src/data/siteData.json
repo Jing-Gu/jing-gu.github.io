@@ -1,7 +1,8 @@
 {
   "title": "JGU",
   "nameLogo": "<JGU />",
-  "description": "This is JGU's personal site, here to find her projects and blog",
+  "description": "This is Jing Gu's personal site, here to find her projects and blog",
+  "keywords": "JGU JingGu astro tailwind portfolio blog personal-site angular frontend developer",
   "url": "https://www.jinggu.dev",
   "image": {
     "src": "",
