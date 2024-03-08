@@ -26,6 +26,7 @@ const { title = siteData.title, description = siteData.description, keywords = s
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link href="/prism.css" rel="stylesheet" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
 
     <!-- Canonical URL -->
     <link rel="canonical" href={canonicalURL} />
@@ -36,7 +37,8 @@ const { title = siteData.title, description = siteData.description, keywords = s
     <meta content={description} name="description" />
     <meta content={keywords} name="keywords" />
     <meta content="Jing Gu" name="author" />
-    <meta content="Jing Gu" name="copyright" />
+    <!-- google verify -->
+    <meta name="google-site-verification" content="OV4FbrNo6o5vLIWuyU3abUaa-X13BletKkT7qhI3Ato" />
     <!-- Open Graph -->
     <meta property="og:site_name" content={title} />
     <meta property="og:title" content={title} name="title" />
