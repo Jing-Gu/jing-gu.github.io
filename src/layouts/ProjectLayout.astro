@@ -5,7 +5,13 @@ import Layout from "./Layout.astro";
 
 type Props = CollectionEntry<"project">["data"];
 
-const { title, imgSrc, tags } = Astro.props;
+interface ProjectProps {
+  title: string;
+  imgSrc: string;
+  tags: string[];
+}
+
+const { title, imgSrc, tags }: ProjectProps = Astro.props;
 ---
 
 <Layout title={title}>

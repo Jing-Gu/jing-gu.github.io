@@ -37,8 +37,7 @@ const { title = siteData.title, description = siteData.description, keywords = s
     <meta content={description} name="description" />
     <meta content={keywords} name="keywords" />
     <meta content="Jing Gu" name="author" />
-    <!-- google verify -->
-    <meta name="google-site-verification" content="OV4FbrNo6o5vLIWuyU3abUaa-X13BletKkT7qhI3Ato" />
+
     <!-- Open Graph -->
     <meta property="og:site_name" content={title} />
     <meta property="og:title" content={title} name="title" />
@@ -53,9 +52,8 @@ const { title = siteData.title, description = siteData.description, keywords = s
     <script src="/prism.js" is:inline></script>
 	</head>
 	<body class="min-h-screen overflow-x-hidden grid grid-rows-[auto_1fr_auto]
-      max-w-4xl mx-auto pt-16 pb-8 px-4
-    [&_p]:text-jg-charcoal
-    [&_h1]:text-jg-charcoal">
+      max-w-4xl mx-auto pt-16 pb-8 px-4 [&_p]:text-jg-charcoal
+    [&_h1]:text-jg-charcoal [&_h2]:text-jg-charcoal [&_h3]:text-jg-charcoal">
 		<Header />
     <div class="my-16">
 		  <slot />
