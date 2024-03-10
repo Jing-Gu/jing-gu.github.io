@@ -8,7 +8,7 @@ type Props = CollectionEntry<'blog'>['data'];
 interface BlogProps {
   title: string;
   date: Date;
-  tags: string[];
+  tags?: string[];
 }
 
 const { title, date, tags }: BlogProps = Astro.props;

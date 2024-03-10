@@ -31,7 +31,7 @@ When we use observables and async pipes, we are managing the data flow explicitl
 
 For example, if we want to receive some items, we would create an observable such as:
 
-```typeScript
+```typescript
 items$ = this.itemService.getItems().pipe(
   map(data => data.results)
 	// other data transformation if necessary
