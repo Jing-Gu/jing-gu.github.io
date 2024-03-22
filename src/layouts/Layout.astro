@@ -53,7 +53,15 @@ const { title = siteData.title, description = siteData.description, keywords = s
 	</head>
 	<body class="min-h-screen overflow-x-hidden grid grid-rows-[auto_1fr_auto]
       max-w-4xl mx-auto pt-16 pb-8 px-4 [&_p]:text-jg-charcoal
-    [&_h1]:text-jg-charcoal [&_h2]:text-jg-charcoal [&_h3]:text-jg-charcoal">
+    [&_h1]:text-jg-charcoal [&_h1]:text-3xl [&_h1]:font-bold [&_h1]:mb-4
+    [&_h2]:text-jg-charcoal [&_h2]:text-2xl [&_h2]:font-bold [&_h2]:mb-3
+    [&_h3]:text-jg-charcoal [&_h3]:text-xl [&_h3]:font-bold
+    [&_h4]:text-jg-charcoal [&_h4]:text-lg [&_h4]:font-semibold [&_h4]:mb-2
+    [&_ul]:text-jg-charcoal [&_ul]:list-disc [&_ul]:leading-8
+      [&_blockquote]:pl-6 [&_blockquote]:border-l-4 [&_blockquote]:border-jg-teal
+		[&_code:not([class])]:bg-jg-fog [&_code:not([class])]:text-jg-salmon
+		[&_code:not([class])]:rounded-sm [&_code:not([class])]:p-1 [&_code:not([class])]:text-xs
+    [&_pre]:rounded-xl">
 		<Header />
     <div class="my-16">
 		  <slot />

@@ -10,7 +10,7 @@ const blogEntries = (await getCollection('blog')).sort(
 <Layout title="Blog">
 	<main>
 		<section>
-			<ul class="flex flex-col gap-4">
+			<ul class="flex flex-col gap-4 !list-none">
 				{
 					blogEntries
 					.map((blogPost) => (

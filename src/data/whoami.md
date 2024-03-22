@@ -10,6 +10,12 @@ I love food, traveling and component-based object-oriented programming.
 - Work on front-end architecture and REST API communication with the Back-end (Python, Django)
 - Create reusable component-based UI elements
 
+### What I have done or contributed:
+- Developed an Angular UI library (lead)
+- Developed an Angular web app that manages audits for auditors and inspectors (lead)
+- Developed an Angular web app that promotes cognitive health to reduce the Alzheimer risk (team)
+- Developed an Ionic hybrid mobile app that provides a variety of games for school and childcare workers (team)
+
 ### My daily tech stack includes:
 - Angular
 - TypeScript
