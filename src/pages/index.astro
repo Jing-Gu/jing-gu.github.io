@@ -5,15 +5,31 @@ import ExternalLink from "../components/ExternalLink.astro";
 ---
 
 <Layout title="Hello">
-	<div class="flex flex-col gap-4 [&_a]:border-b [&_a]:border-jg-charcoal [&_a]:pb-1">
-		<p>Hey, I'm <ExternalLink href={siteData.githubLink} linkName="Jing Gu" />, I make web and mobile apps.
+	<div
+		class="flex flex-col gap-4 [&_a]:border-b [&_a]:border-jg-charcoal [&_a]:pb-1"
+	>
+		<p>
+			Hey, I'm <ExternalLink href={siteData.githubLink} linkName="Jing Gu" />,
+			a senior developer at <ExternalLink href={siteData.companyLink} linkName="Sully Group"/>,
+			I make web and mobile apps.
 		</p>
-		<p>Currently I work at <ExternalLink href={siteData.caravanLink} linkName="Caravan coop" /> as a front-end developer.
-			Here you can know more <a href="whoami">about me</a> or check out what am doing <a href="now">now</a>.
+		<p>
+			Here you can know more <a href="whoami">about me</a>
+			or check out what I am doing <a href="now">now</a>.
 		</p>
-		<p>I use this space to document some of my sideline <a href="/projects">projects</a>.</p>
-		<p>I enjoy <a href="/blog">writing</a>. When something inspires me, I write about it, from software development to self reflexion or book reviews.</p>
-		<p>Feel free to reach me by <a {href}=`mailto:${siteData.email}`>email</a>,
-		or you can also find me on <ExternalLink href={siteData.linkedInLink} linkName="LinkedIn" />.</p>
+		<p>
+			I use this space to document some of my sideline <a href="/projects">projects</a>.
+		</p>
+		<p>
+			I enjoy <a href="/blog">writing</a>. When something inspires me, I write
+			about it, from software development to self reflexion or book reviews.
+		</p>
+		<p>
+			Feel free to reach me by <a href=`mailto:${siteData.email}`>email</a>, or
+			you can also find me on <ExternalLink
+				href={siteData.linkedInLink}
+				linkName="LinkedIn"
+			/>.
+		</p>
 	</div>
 </Layout>
