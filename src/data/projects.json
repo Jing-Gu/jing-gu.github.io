@@ -9,7 +9,7 @@
     ],
     "slug": "caravan-ui-kit",
     "image": {
-      "imgSrc": "images/projects/caravan-ui/caravan-ui-hero.png",
+      "imgSrc": "/images/projects/caravan-ui/caravan-ui-hero.png",
       "imgAlt": "caravan-ui-kit"
     }
   },
@@ -21,7 +21,7 @@
     ],
     "slug": "pakupack",
     "image": {
-      "imgSrc": "images/projects/pakupack/pakupack-hero.png",
+      "imgSrc": "/images/projects/pakupack/pakupack-hero.png",
       "imgAlt": "pakupack"
     }
   }
