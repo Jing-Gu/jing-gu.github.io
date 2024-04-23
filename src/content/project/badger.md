@@ -1,6 +1,7 @@
 ---
 title: Badger2040
-imgSrc: images/projects/badger/badger1.jpg
+type: RaspberryPi pimoroni
+imgSrc: badger/badger-hero.jpg
 tags: ['micropython', 'raspberry']
 ---
 

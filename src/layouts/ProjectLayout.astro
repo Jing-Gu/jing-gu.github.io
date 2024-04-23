@@ -1,28 +1,56 @@
 ---
 import type { CollectionEntry } from "astro:content";
-
 import Layout from "./Layout.astro";
+import ExternalLink from "../components/ExternalLink.astro";
 
 type Props = CollectionEntry<"project">["data"];
 
 interface ProjectProps {
   title: string;
+  type?: string;
   imgSrc: string;
   tags?: string[];
+  demoText?: string;
+  demoLink?: string;
 }
 
-const { title, imgSrc, tags }: ProjectProps = Astro.props;
+const { title, type, imgSrc, tags, demoText, demoLink }: ProjectProps =
+  Astro.props;
 ---
 
 <Layout title={title}>
-  <div>
-    <div class="">
-      <img src={`../public/${imgSrc}`} alt="">
-      <h1 class="text-3xl mb-8">{title}</h1>
-      {
-        tags?.map(tag => <span>{tag}</span>)
-      }
+  <div
+    class="[&_p]:mb-3 [&_ul]:ml-4 [&_ul]:mb-5
+    [&_img]:border-2 [&_img]:border-jg-charcoal [&_img]:rounded-2xl
+    [&_picture]:grid [&_picture]:grid-cols-1 md:[&_picture]:grid-cols-2
+    [&_picture]:gap-4 [&_picture]:my-6
+    [&_a]:border-b [&_a]:border-jg-charcoal [&_a]:pb-1"
+  >
+    <div class="mb-8">
+      <div class="flex flex-col-reverse md:flex-row gap-8">
+        <div class="flex-1 flex flex-col">
+          <h1>{title}</h1>
+          <h3 class="my-4">Type</h3>
+          <p>{type}</p>
+          <h3 class="my-4">Skills</h3>
+          {tags?.map((tag) => <p>{tag}</p>)}
+          {
+            demoLink && (
+              <div class="self-start">
+                <ExternalLink href={demoLink} linkName={demoText} />
+              </div>
+            )
+          }
+        </div>
+        <div class="flex-[2]">
+          <img src={`/images/projects/${imgSrc}`} alt="" />
+        </div>
+      </div>
     </div>
     <slot />
+    <a href="/projects" class="mt-8 inline-block text-jg-charcoal">
+      <span class="text-3xl">&#8249;</span>
+      <span class="text-2xl">Back</span>
+    </a>
   </div>
 </Layout>

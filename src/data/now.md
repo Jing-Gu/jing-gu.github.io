@@ -7,6 +7,6 @@
 - Reading 'The world I see' by Dr.Li Feifei
 - Enjoying occasionally the Nintendo Switch.
 
-*Last updated: April 20 2024*
+*Last updated: April 22 2024*
 
 *Inspired by Derek Sivers' [Nownownow.com](https://nownownow.com/about)*
