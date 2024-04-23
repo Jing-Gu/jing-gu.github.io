@@ -1,25 +1,27 @@
 [
   {
-    "title": "Badger 2040",
+    "title": "Caravan UI Kit",
     "skills": [
-      "MicroPython",
-      "Raspberry Pi Pico"
+      "UI library",
+      "Angular17",
+      "Tailwind",
+      "NPM package"
     ],
-    "slug": "badger",
+    "slug": "caravan-ui-kit",
     "image": {
-      "imgSrc": "images/projects/badger/badger1.jpg",
-      "imgAlt": "badger2040"
+      "imgSrc": "images/projects/caravan-ui/caravan-ui-hero.png",
+      "imgAlt": "caravan-ui-kit"
     }
   },
   {
     "title": "Pakupack traveler's checklist",
     "skills": [
       "Astro",
-      "Tailwind CSS"
+      "Tailwind"
     ],
     "slug": "pakupack",
     "image": {
-      "imgSrc": "images/projects/pakupack/pakupack-home.png",
+      "imgSrc": "images/projects/pakupack/pakupack-hero.png",
       "imgAlt": "pakupack"
     }
   }
