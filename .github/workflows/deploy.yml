@@ -1,11 +1,16 @@
 name: Deploy to GitHub Pages
 
 on:
-  # Trigger the workflow every time you push to the `gh-page` branch
   push:
-    branches: [ gh-page ]
-  # Allows you to run this workflow manually from the Actions tab on GitHub.
-  workflow_dispatch:
+    branches:
+      - master
+    # This ensures the action runs only when PR is merged into master
+  pull_request:
+    types:
+      - closed
+    branches:
+      - master
+    # This makes sure that the workflow triggers when a PR is merged into the master branch.
 
 # Allow this job to clone the repo and create a page deployment
 permissions:
