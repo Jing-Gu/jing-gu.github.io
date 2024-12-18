@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import typography from '@tailwindcss/typography';
 
 export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
@@ -14,12 +15,13 @@ export default {
 			"jg-charcoal": "#333333",
 			"jg-smoke": "#757575",
 			"jg-fog": "#d3d3d3",
+			"jg-offwhite": "#ececec",
 			"white": "#fff",
 			"transparent": "transparent"
 		},
 		extend: {},
 	},
 	plugins: [
-		require('@tailwindcss/typography'),
+		typography
 	],
 }
