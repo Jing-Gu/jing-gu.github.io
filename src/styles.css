@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-charcoal;
+  }
+
+  h1 {
+    @apply text-3xl font-bold;
+  }
+
+  h2 {
+    @apply text-2xl font-semibold;
+  }
+
+  h3 {
+    @apply text-xl font-semibold;
+  }
+
+  ul:not([class]) {
+    @apply list-disc ml-4;
+  }
+
+  a:not([class]) {
+    @apply text-teal underline;
+  }
+
+  code {
+    @apply text-salmon bg-offwhite rounded-sm text-sm p-1;
+  }
+
+}
+
+markdown {
+  white-space: pre-wrap;
+  /* Ensures that line breaks are preserved */
+  word-wrap: break-word;
+  /* Ensures long words break correctly */
+}

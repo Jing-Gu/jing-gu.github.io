@@ -1,0 +1,19 @@
+@if(blogs$ | async; as blogs) {
+<div class="flex flex-col gap-4 mb-8">
+  @for (blog of blogs; track $index) {
+  <div class="flex justify-between gap-4">
+    <div class="flex gap-6 items-baseline flex-wrap">
+      <a class="cursor-pointer hover:text-teal" (click)="navigateToBlog(blog)">
+        {{blog.title}}
+      </a>
+      <span class="flex gap-2">
+        @for(tag of blog.tags; track tag) {
+        <span class="text-xs text-teal">#{{tag}}</span>
+        }
+      </span>
+    </div>
+    <p class="text-smoke text-sm">{{blog.date | date:'MMM dd, yyyy'}}</p>
+  </div>
+  }
+</div>
+}

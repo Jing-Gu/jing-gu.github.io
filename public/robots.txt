@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://jinggu.dev/sitemap-index.xml
