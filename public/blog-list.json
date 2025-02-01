@@ -1,5 +1,14 @@
 [
   {
+    "id": 6,
+    "title": "Something to hide? Undo my git commits and rewrite the history",
+    "slug": "undo-git-commit-and-rewrite-history",
+    "date": "2025-01-29",
+    "tags": [
+      "Git"
+    ]
+  },
+  {
     "id": 5,
     "title": "Horrible more than 10k git changes, never move files manually",
     "slug": "10k-git-changes",
