@@ -1,7 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Blog } from '../interfaces/blog.interface';
 
 @Injectable({
   providedIn: 'root'
@@ -14,8 +13,8 @@ export class ContentService {
     return this.http.get(path, { responseType: 'text' });
   }
 
-  public getJsonContent(path: string): Observable<Blog[]> {
-    return this.http.get<Blog[]>(path, { responseType: 'json' });
+  public getJsonContent<T>(path: string): Observable<T> {
+    return this.http.get<T>(path, { responseType: 'json' });
   }
 
 

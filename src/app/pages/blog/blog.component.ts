@@ -13,7 +13,7 @@ import { Blog } from '../../interfaces/blog.interface';
 export class BlogComponent {
   private contentService = inject(ContentService);
   private router = inject(Router);
-  public blogs$ = this.contentService.getJsonContent("./blog-list.json");
+  public blogs$ = this.contentService.getJsonContent<Blog[]>("./blog-list.json");
 
   public navigateToBlog(blog: Blog): void {
     const date = blog.date;
