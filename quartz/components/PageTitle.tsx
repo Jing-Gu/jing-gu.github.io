@@ -7,13 +7,22 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const title = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title
   const baseDir = pathToRoot(fileData.slug!)
   return (
-    <h2 class={classNames(displayClass, "page-title")}>
-      <a href={baseDir}>{title}</a>
-    </h2>
+    <a href={baseDir}>
+      <img src="/static/jgu_profile.jpeg" alt="" class="profile" />
+      <h2 class={classNames(displayClass, "page-title")}>
+        {title}
+      </h2>
+    </a>
   )
 }
 
 PageTitle.css = `
+.profile {
+  width: 184px;
+  height: 184px;
+  border-radius: 500px;
+}
+
 .page-title {
   font-size: 1.75rem;
   margin: 0;
