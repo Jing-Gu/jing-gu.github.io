@@ -1,6 +1,0 @@
-# enforce HTTPS and canonical domain name
-https://jing-gu.github.io/*                https://www.jinggu.dev/:splat     301!
-
-# Redirect from non-www to www
-http://jinggu.dev/*                        https://www.jinggu.dev/:splat     301!
-https://jinggu.dev/*                       https://www.jinggu.dev/:splat     301!
