@@ -1,6 +1,7 @@
 ---
+title: Now
 ---
-# What I'm doing now
+
 - Working full-time as a dev consultant at CDPQ, hybrid home + office.
 - Raising my lovely 2 years old girl while I am away from the computer.
 - Learning deeper into CS, from begining.
