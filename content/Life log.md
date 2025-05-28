@@ -1,43 +1,89 @@
 ---
-title: Life log 🗓
+title: Life log
 ---
 Every human being needs his [CHANGELOG](https://keepachangelog.com/)
 
 What I am doing [[Now]]
 
-2018.12.29 - Arriving in Montreal
+---
+## 2025
 
-2019 - CDI college, part-time job with Han
+⛪ 5.4 - Visited the Korean church, liked their fellowship
 
-2020 - Pandemic COVID 19, got job in Caravan
+👪 4.19 - Cabane à sucre Constantin, met Korean fellowship for the first time, became friends with hairdresser Kim.
 
-2021 - Married, bought Areve condo, pregnant
+🚋 3.16 - Train expo, we all loved the train museum and the mini train !
 
-2022 - became PR, gave birth to Zelda
+✈️ 2.7 - 2.14 Trip to JP and HK
+- Onsen experience in Hakone
+- Luggage lost due to Air Canada !
+- Met parents in HK 
+- Finally had chance to meet Mika after years, had fun in HK Peninsula Hotel, Tomahawk steak.
+- Why I only planned one week for the Asian trip ?? 
 
-2023 - Raising Zelda while working remotely, visit my parents
+---
+## 2024
 
-2024 - Joined Sully Group, became Canadian
+🍁11.8 - Appear in the citizenship ceremony (Became Canadian citizen!)
+
+🍎 9.7 - Quinn Farm, apple picking 
+
+💼 6.18 - Contract with CDPQ
+
+✈️ 5.14 - Toronto airport pick up mom, two-day trip, mom's summer stay until August
+
+💼 4.22 - Joined Sully Group
+
+🐥 4.16 - Zelda started the day-care
+
+☀ 4.8 - Full eclipse in Montreal !
+
+🚗 1.11 - New car Toyota corolla delivered
+
+---
+## 2023
+
+✈️ 125 - 12.27 Trip to China, visited my parents, Zelda's first long distance trip
+
+👼🏻 11.26 - Baby dedication in People's church
+
+(Raising Zelda while working remotely)
+
+---
+## 2022
+
+🤱 7.24 - Zelda was born!
+
+🍁 6.8 - Became permanent resident
+
+---
+## 2021
+
+🤰10~11 Pregnant
+
+🏡 5.18 - Became home owner, moved in our new home - Areve condo
+
+💑 3.20 - Married to Irwin in People’s church
+
+---
+## 2020
+
+🧬 Pandemic COVID 19
+
+💼 Started my work in Caravan as front end developer
+
+---
+## 2019
+
+✈️ Trip with Mika to Vancouver and Victoria
+
+👩‍🎓‍ CDI college
+
+🍵 Part-time job at Han's tea salon
+
+---
+## 2018
+
+🍁12.29 - Landed in Montreal
 
 
-### Important dates
-
-2018.12.29 - Enter Canada
-
-2020.8.3 - Started my work in Caravan
-
-2021.3.20 - Married to Irwin in People’s church
-
-2021.5.18 - Moved in our new home - Areve condo
-
-2022.6.8 - Became permanent resident
-
-2022.7.24 - Zelda was born!
-
-2023.11.26 - Baby dedication
-
-2024.4.22 - Joined Sully Group
-
-2024.6.18 - Contract with CDPQ
-
-2014.11.8 - Became Canadian citizen

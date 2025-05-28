@@ -3,9 +3,6 @@ title: Caravan UI Kit
 draft: 
 tags:
   - Design-system
-  - Angular
-  - Tailwind
-  - NPM
 type: UI component library
 website: https://caravancoop.github.io/caravan-ui-docs
 ---

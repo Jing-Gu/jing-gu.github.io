@@ -17,13 +17,13 @@ Passion for object-oriented programming and component-based frontend, my goal is
 
 ### 2024 - Now
 
-Senior developer | [Sully Group](https://www.sully-group.com/fr/)
+**Senior developer** | [Sully Group](https://www.sully-group.com/fr/)
 
 Montreal, Canada
 
 ### 2020 - 2024
 
-Frontend developer (Angular) | [Caravan Coop](https://www.caravan.coop/en/)
+**Frontend developer (Angular)** | [Caravan Coop](https://www.caravan.coop/en/)
 
 Montreal, Canada
 
@@ -33,7 +33,7 @@ Montreal, Canada
 
 ### 2020 - 2020
 
-Web designer | [NATAN](https://www.catchafire.org/volunteer/42334/natan--website-visual-design/)
+**Web designer** | [NATAN](https://www.catchafire.org/volunteer/42334/natan--website-visual-design/)
 
 Remote
 
@@ -42,20 +42,39 @@ Remote
 
 ---
 ## Projects
-### 2024 - Kloroform
-A web app to manage audits for auditing professionals
 
-### 2023 - [Caravan UI](https://caravancoop.github.io/caravan-ui-docs/getting-started)
+### Compas
+
+2024 - Now
+
+Angular web app for internal CDPQ financial analysis 
+
+### Kloroform
+
+2023 - 2024
+
+Angular web app to manage audits for auditing professionals
+
+### [Caravan UI](https://caravancoop.github.io/caravan-ui-docs/getting-started)
+
+2022 - 2023
+
 Following the concept of 'Atomic Design', Caravan UI provides a set of reusable UI components out of box to facilitate the development of Angular web applications
 
-### 2023 - [Lucilab](https://luciapp.ca/en/public/dashboard/home/detail)
+### [Lucilab](https://luciapp.ca/en/public/dashboard/home/detail)
+
+2020 - 2023
+
 Angular web app that promotes cognitive health to reduce the Alzheimer risk
 
-### 2022 - [PEP ton jeu](https://apps.apple.com/ca/app/pep-ton-jeu/id1457513888?l=fr-CA)
+### [PEP ton jeu](https://apps.apple.com/ca/app/pep-ton-jeu/id1457513888?l=fr-CA)
+
+2020 - 2022
+
 Ionic hybrid mobile app that provides a variety of games for school and childcare workers
 
 ## Side projects
-### 2024 - [Pakupack](https://www.jinggu.dev/pakupack)
+### [Pakupack](https://www.jinggu.dev/pakupack)
 A delightful traveller's checklist website (made with Astro)
 
 ---

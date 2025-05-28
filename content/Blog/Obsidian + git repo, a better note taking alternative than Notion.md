@@ -3,7 +3,7 @@ title: Obsidian + git repo, a better note taking alternative than Notion
 draft: false
 tags:
   - Productivity
-  - Thinking
+  - Think
 date: 2024-05-31
 ---
 Notion has dominated my note-taking life for long, it is present in all my devices and I almost use it to write down everything, from personal journals to dev notes, with all sorts of templates created.
