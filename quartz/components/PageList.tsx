@@ -1,6 +1,6 @@
 import { FullSlug, isFolderPath, resolveRelative } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
-import { Date, getDate } from "./Date"
+import { getDate } from "./Date"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import { GlobalConfiguration } from "../cfg"
 
@@ -58,7 +58,13 @@ type Props = {
 } & QuartzComponentProps
 
 export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort }: Props) => {
-  const sorter = sort ?? byDateAndAlphabeticalFolderFirst(cfg)
+  //const sorter = sort ?? byDateAndAlphabeticalFolderFirst(cfg)
+  const sorter = (a: any, b: any) => {
+    const dateA = new Date(a.frontmatter?.date ?? a.dates?.created ?? 0)
+    const dateB = new Date(b.frontmatter?.date ?? b.dates?.created ?? 0)
+    return dateB.getTime() - dateA.getTime()
+  }
+
   let list = allFiles.sort(sorter)
   if (limit) {
     list = list.slice(0, limit)
@@ -69,20 +75,19 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
       {list.map((page) => {
         const title = page.frontmatter?.title
         const tags = page.frontmatter?.tags ?? []
+        const date = page.frontmatter?.date ?? ""
 
         return (
           <li class="section-li">
             <div class="section">
               <p class="meta">
-                {page.dates && <Date date={getDate(cfg, page)!} locale={cfg.locale} />}
+                {date}
               </p>
-              <div class="desc">
-                <h3>
-                  <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
-                    {title}
-                  </a>
-                </h3>
-              </div>
+
+              <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
+                {title}
+              </a>
+
               <ul class="tags">
                 {tags.map((tag) => (
                   <li>
@@ -104,8 +109,8 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
 }
 
 PageList.css = `
-.section h3 {
-  margin: 0;
+.section a {
+  background: none !important;
 }
 
 .section > .tags {
