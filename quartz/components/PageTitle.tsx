@@ -18,8 +18,8 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
 
 PageTitle.css = `
 .profile {
-  width: 184px;
-  height: 184px;
+  width: 100px;
+  height: 100px;
   border-radius: 500px;
 }
 

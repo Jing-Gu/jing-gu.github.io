@@ -8,6 +8,8 @@ What I am doing [[Now]]
 ---
 ## 2025
 
+👪 5.30 - Dad mom came to visit and stay for 3 months
+
 ⛪ 5.4 - Visited the Korean church, liked their fellowship
 
 👪 4.19 - Cabane à sucre Constantin, met Korean fellowship for the first time, became friends with hairdresser Kim.
