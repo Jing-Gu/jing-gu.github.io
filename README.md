@@ -1,5 +1,7 @@
 # 👋 Hi, this is JGU
 
+![image](https://img.shields.io/badge/Obsidian-483699?style=for-the-badge&logo=Obsidian&logoColor=white)
+
 This project is generated using Quartz4, then edited directly with Obsidian.
 
 ---
