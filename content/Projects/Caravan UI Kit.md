@@ -1,12 +1,12 @@
 ---
 title: Caravan UI Kit
-draft: 
+draft:
 tags:
   - Design-system
 type: UI component library
 website: https://caravancoop.github.io/caravan-ui-docs
 ---
-![Caravan UI hero image](static/images/caravan-ui-hero.png)
+![Caravan UI hero image](/public/static/images/caravan-ui-hero.png)
 ## What is Caravan UI
 
 Caravan UI provides a set of reusable UI components to facilitate the development of **Angular web applications**. This was designed and developped as the internal asset for my team Caravan coop, and was intended to use for any internal project or client projects with limited design budget.
@@ -15,7 +15,7 @@ The conception behind Caravan UI is the famous **Atomic Design**, which initial
 
 The idea was to break down a user interface into smaller and more manageable components in order to promote modularity, reusability, and consistency in our design system. Those components can be easily combined to create more complex and customized UI templates.
 
-![Caravan UI example image](static/images/caravan-ui-example.png)
+![Caravan UI example image](/public/static/images/caravan-ui-example.png)
 
 ## Here's how I did it
 
