@@ -8,6 +8,10 @@ What I am doing [[Now]]
 ---
 ## 2025
 
+🚙 6.30 - Road trip to Niagara falls (Ottawa, Thousand islands, Niagara fall, Toronto, Big apple farm)
+
+🎉 6.13 - Obtained QC driving licence 
+
 👪 5.30 - Dad mom came to visit and stay for 3 months
 
 ⛪ 5.4 - Visited the Korean church, liked their fellowship
