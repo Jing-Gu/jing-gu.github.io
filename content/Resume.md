@@ -15,11 +15,22 @@ Passion for object-oriented programming and component-based frontend, my goal is
 ---
 ## Work experience
 
-### 2024 - Now
+### 2025 - Now
 
-**Senior developer** | [Sully Group](https://www.sully-group.com/fr/)
+**Principal developer** | [La Caisse](https://www.lacaisse.com/fr)
 
 Montreal, Canada
+
+Ingénierie et solutions de sciences des données
+
+### 2024 - 2025
+
+**Senior developer consultant** | [Sully Group](https://www.sully-group.com/fr/)
+
+Montreal, Canada
+
+- Web applications with Angular and Python
+- Mandates from France and Canada
 
 ### 2020 - 2024
 

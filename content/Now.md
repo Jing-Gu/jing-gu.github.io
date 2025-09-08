@@ -2,11 +2,11 @@
 title: Now
 ---
 
-- Working full-time as a dev consultant at CDPQ, hybrid home + office.
-- Raising my lovely 2 years old girl while I am away from the computer.
-- Learning deeper into CS, from begining.
+- Working full-time at La Caisse, hybrid home + office.
+- Raising my lovely 3 years old girl while I am away from the computer.
+- Learning deeper into CS, from beginning.
 - Enjoying occasionally the Nintendo Switch.
 
-*Last updated: Januray 25 2025*
+*Last updated: September 07 2025*
 
 *Inspired by Derek Sivers' [Nownownow.com](https://nownownow.com/about)*

@@ -8,6 +8,8 @@ What I am doing [[Now]]
 ---
 ## 2025
 
+💼 9.2 - Started a new position: Principal developer at La Caisse (Caisse de dépôt et placement du Québec)
+
 🚙 6.30 - Road trip to Niagara falls (Ottawa, Thousand islands, Niagara fall, Toronto, Big apple farm)
 
 🎉 6.13 - Obtained QC driving licence 

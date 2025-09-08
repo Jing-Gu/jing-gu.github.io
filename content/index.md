@@ -2,7 +2,7 @@
 title: Hi there 👋
 ---
 
-Hey, I'm [Jing Gu](https://github.com/jing-gu), a senior developer at [Sully Group](https://www.sully-group.com/fr/accueil), I make web and mobile apps.
+Hey, I'm [Jing Gu](https://github.com/jing-gu), a principal developer at [La Caisse](https://www.lacaisse.com/fr), I make web and mobile apps.
 
 Here you can know more [[About me]] or check out what I am doing [[Now]]
 
