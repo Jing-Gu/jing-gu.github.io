@@ -2,7 +2,7 @@
 title: About me
 ---
 
-My name is Jing Gu. I am a senior developer, specializing in Angular projects.
+My name is Jing Gu. I am a senior developer / director, specializing in Angular projects.
 
 I live in Montreal, Canada.
 

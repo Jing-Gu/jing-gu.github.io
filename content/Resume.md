@@ -4,7 +4,7 @@ title: Resume
 ---
 > **Jing Gu**
 > 
-> **Software developer | Angular**
+> **Technical director - Morgan Stanley Institutional Securities Technology**
 > 
 > **Montreal, Canada**
 > 
@@ -15,7 +15,13 @@ Passion for object-oriented programming and component-based frontend, my goal is
 ---
 ## Work experience
 
-### 2025 - Now
+### 2026 - Now
+
+**Director - Institutional Securities Technology** | [Morgan Stanley](https://www.morganstanley.com/)
+
+Montreal, Canada
+
+### 2025 - 2026
 
 **Principal developer** | [La Caisse](https://www.lacaisse.com/fr)
 

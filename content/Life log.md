@@ -6,9 +6,14 @@ Every human being needs his [CHANGELOG](https://keepachangelog.com/)
 What I am doing [[Now]]
 
 ---
+## 2026
+
+💼 5.11 - Started a new position: Director at Morgan Stanley - Institutional Securities Technology
+
+✈️ 4.1 - Easter trip to Belgium (10 days visiting Mika, Brussels, Bruges, Leuven, Antwerp)
 ## 2025
 
-💼 9.2 - Started a new position: Principal developer at La Caisse (Caisse de dépôt et placement du Québec)
+💼 9.2 - Joined CDPQ as principal developer
 
 🚙 6.30 - Road trip to Niagara falls (Ottawa, Thousand islands, Niagara fall, Toronto, Big apple farm)
 
